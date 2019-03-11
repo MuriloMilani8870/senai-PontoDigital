@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Calibri' , 'Open Sans' , 'Sans-serif';
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Overpass' , cursive;
+}
+
+
+h1{
+    display: none;
+}
+
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../IMG/Degradê.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3.8em;
+    height: 2em;
+    align-items:center;
+}
+
+nav  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffbc0d;
+    -webkit-text-stroke: 1.5px #000;
+    
+}
+
+nav img{
+    height: 100px;
+    width: 75px;
+}
+
+.conteudo_geral{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.banner img{
+    margin-left: 33%;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+
+}
+.intro{
+    margin-bottom: 70px;
+}
+
+
+.intro p{
+    
+    font-weight: bold;
+    padding: 0.2em;
+    text-align: center;
+    letter-spacing: 0.8px;
+    word-spacing: 2.5px;
+    width: 100%;    
+    max-width: 1300px;
+    display: flex;
+    border-radius: 10px;
+    border-style: solid;
+    color: #00347f;
+    font-size: 3em;
+}
+
+.banner_destaque{
+    font-size: 1.2em;
+    font-family: 'Overpass';
+    color: #ffbc0d;
+    -webkit-text-stroke: 1px #000;
+    
+}
+
+.info{
+    border-radius: 20px;
+    margin: auto;
+    width: 100%;    
+    width: 1150px;
+    font-size: 2.5em;
+    background: #00347f;
+    color: #fff;
+}
+
+.info > p{
+    font-size: 1.1em;
+    padding: 0.8em;
+    text-align: center;
+    
+}
+
+.banner a{
+    border-radius: 20px;
+    width: 700px;
+    height: 150px;
+    margin: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 5em;
+    background: #ffbc0d;
+    color: #00347f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.Projects h2{   
+        margin-top: 100px;
+        font-weight: bold;  
+        width: 100%; 
+        max-width: 800px;
+        border-radius: 10px;
+        border-style: solid;
+        color: #00347f;
+        font-size: 3em;
+    }
+
+    .Projects img{
+        height: 100%;
+        width: 100%;
+        max-width: 200px;
+    }
