@@ -283,7 +283,7 @@ nav img{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
 }
@@ -372,4 +372,123 @@ nav img{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+form *{
+    margin: 5px 0;
+    text-align: center;
+
+}
+
+label{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px rgb(0, 0, 0, 0.5);
+    margin: 18px 0 20px 0;
+    height: 3em;
+    width: 200px;
+    font-size: 0.6em;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+input[type="submit"]:hover {
+    background: #ffbc0d;
+    color: #00347f;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px rgb(0, 0, 0, 0.5);
+    margin: 18px 0 20px 0;
+    font-size: 0.6em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#texto{
+    border-radius: 10px;
+    width: 80%;
+    height: 200px;
+    border-color: #00347f ;
+    border-style: solid;
+}
+
+.formulario{
+    border-radius: 20px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    background: #00347f;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    width: 100%;
+    max-width: 1300px;
+}
+
+#local > iframe{
+    margin: 40px;
+}
+
+.endereco{
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.endereco > img{
+    margin: 30px;
+    width: 400px;
+    height: 450px;
+}
+
+address{
+    width: 700px;
+    font-size: 1.5em;
+    color: #fff;
+    background: #00347f;
+}
+
+.sociais img{
+    width: 50px;
+    height: 50px
+
+}
+
+.sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{ 
+    width: 1920px;
+    text-align: start;
+    color:#fff;
+    background-image: url(../IMG/Footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.7em;
+}
+
+footer a{
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer > h2{
+    font-size: 2em;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #000;
+    color: #ffbc0d;
 }
