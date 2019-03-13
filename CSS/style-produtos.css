@@ -111,3 +111,57 @@ nav img{
     display: flex;
     justify-content: space-around;
 }
+
+
+
+
+
+
+
+
+
+
+.sociais img{
+    width: 50px;
+    height: 50px
+
+}
+
+.sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{ 
+    width: 1920px;
+    text-align: start;
+    color:#fff;
+    background-image: url(../IMG/Footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.7em;
+}
+
+footer a{
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer > h2{
+    font-size: 2em;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #000;
+    color: #ffbc0d;
+}
+
+.redes{
+    display: flex;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
