@@ -1,0 +1,209 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    {box-sizing:border-box}
+}
+
+body{
+
+    font-family: 'Calibri' , 'Open Sans' , 'Sans-serif';
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Calibri' , cursive;
+}
+
+
+h1{
+    display: none;
+}
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../IMG/Degradê.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3.8em;
+    height: 2em;
+    align-items:center;
+}
+
+nav  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffbc0d;
+    -webkit-text-stroke: 1.5px #000;
+    
+}
+
+nav img{
+    height: 100px;
+    width: 75px;
+}
+
+.destaque{
+    font-size: 1.3em;
+    -webkit-text-stroke: 20px #000;
+}
+
+.conteudo p{
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1300px;
+    color: #003182;
+    text-align: center;
+    font-size: 3em;
+}
+
+.content{
+    width: 100%;
+    max-width: 1600px;
+}
+
+.formulario{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;  
+    width: 100%; 
+    max-width: 1720px;
+    border: 5px solid #00347f;
+    border-radius: 20px;
+    color: #00347f;
+    font-size: 3em;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.formulario h2{
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;    
+    background-color: #00347f;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;  
+    width: 100%; 
+    max-width: 1000px;
+    border-radius: 10px;
+    border-style: solid;
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+
+}
+
+form *{
+    margin: 5px 0;
+    text-align: center;
+
+}
+
+input{
+
+}
+
+input[type="submit"] {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+    margin: 18px 0 20px 0;
+    height: 3em;
+    width: 150px;
+    font-size: 0.5em;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+input[type="submit"]:hover {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background: #00347f;
+    color: #fff;
+    border: 1px solid #000;
+    box-shadow: 2px 2px rgb(0, 0, 0, 0.5);
+    margin: 18px 0 20px 0;
+    font-size: 0.7em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sociais img{
+    width: 50px;
+    height: 50px
+
+}
+
+.sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{ 
+    width: 1920px;
+    text-align: start;
+    color:#fff;
+    background-image: url(../IMG/Footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.7em;
+}
+
+footer a{
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer > h2{
+    font-size: 2em;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #000;
+    color: #ffbc0d;
+}
+
+.redes{
+    display: flex;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
