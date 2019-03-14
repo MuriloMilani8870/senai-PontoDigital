@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    {box-sizing:border-box}
+}
+
+body{
+
+    font-family: 'Calibri' , 'Open Sans' , 'Sans-serif';
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Overpass' , cursive;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 5.6em;
+    color: #ffbc0d;
+    -webkit-text-stroke: 2px #fff;
+    
+}
+
+p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 4em;
+    color: #Fff;
+    -webkit-text-stroke: 1px #000;
+}
+
+.destaque{
+    font-size: 1.5em;
+    color: #ffbc0d;
+    -webkit-text-stroke: 2px #fff;
+}
+
+.minor{
+    font-size: 2.9em;
+}
+
+.standart{
+    font-size: 2.5em;
+}
+
+.master {
+    font-size: 3em;
+}
+
+#nada{
+    margin-top: 350px;
+}
+
+.major{
+    font-size: 3.1em;
+}
