@@ -1,0 +1,276 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    {box-sizing:border-box}
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    font-family: 'Calibri' , 'Open Sans' , 'Sans-serif';
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Overpass' , cursive;
+}
+
+
+h1{
+    display: none;
+}
+
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../IMG/Degradê.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3.8em;
+    height: 2em;
+    align-items:center;
+}
+
+nav  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffbc0d;
+    -webkit-text-stroke: 1.5px #000;
+    
+}
+
+nav img{
+    height: 100px;
+    width: 75px;
+}
+
+.destaque{
+    font-size: 1.4em;
+    -webkit-text-stroke: 20px #000;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: #00347f;
+    font-size: 3em;
+}
+
+.imagem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo_geral img{
+    height: 300px;
+    width: 230px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-right: 100px;
+}
+
+.genero{
+    background: #00347f;
+    color: #fff;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+
+.cadastre-se{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    height: 650px;
+}
+
+.nascimento{
+    color: #fff;
+    background: #00347f;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.parte1{
+    padding: 5px;
+    display: flex;
+    
+}
+
+.parte2{
+    padding: 5px;
+    display: flex;
+
+}
+
+.parte3{
+    padding: 5px;
+    display: flex;
+}
+
+.parte4{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+form {
+    text-align: center;
+    border: 3px solid #00347f;
+  }
+  
+  input[type=text], input[type=password] , input[type=email] , input[type=cpf] , input[type=date]{
+    color: #fff;
+    background: #00347f;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 5px 10px 5px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  ::placeholder {
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+  }
+  
+  :-ms-input-placeholder {
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #fff;
+  }
+
+
+  button {
+    background-color: #fff;;
+    color: #003467f;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid #000000;
+    height: 3em;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;  
+    background: #ffbc0d;
+    color: #fff;
+    border: 1px solid #000;
+    box-shadow: 2px 2px rgb(0, 0, 0, 0.5);
+    margin: 18px 0 20px 0;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sociais img{
+    width: 50px;
+    height: 50px
+
+}
+
+.sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{ 
+    width: 1920px;
+    text-align: start;
+    color:#fff;
+    background-image: url(../IMG/Footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.7em;
+}
+
+footer a{
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer > h2{
+    font-size: 2em;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #000;
+    color: #ffbc0d;
+}
+
+.redes{
+    display: flex;
+    text-align: center;
+}
