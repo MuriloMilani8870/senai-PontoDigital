@@ -497,3 +497,7 @@ footer > h2{
     -webkit-text-stroke: 1.5px #000;
     color: #ffbc0d;
 }
+.redes{
+    display: flex;
+    text-align: center;
+}

@@ -167,3 +167,8 @@ footer > h2{
 html{
     scroll-behavior: smooth;
 }
+
+.redes{
+    display: flex;
+    text-align: center;
+}

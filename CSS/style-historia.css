@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    {box-sizing:border-box}
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    font-family: 'Calibri' , 'Open Sans' , 'Sans-serif';
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Overpass' , cursive;
+}
+
+
+h1{
+    display: none;
+}
+
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../IMG/Degradê.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3.8em;
+    height: 2em;
+    align-items:center;
+}
+
+nav  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffbc0d;
+    -webkit-text-stroke: 1.5px #000;
+    
+}
+
+nav img{
+    height: 100px;
+    width: 75px;
+}
+
+.destaque{
+    font-size: 1.4em;
+    -webkit-text-stroke: 20px #000;
+}
+
+h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 5em;
+    color: #ffbc0d;
+    -webkit-text-stroke:2px #000;
+}
+
+.historia{
+    text-align: center;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.historia img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+}
+
+.empresa{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.empresa p{
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    height: 200px;
+    color: #fff;
+    background: #00347f;
+}
+
+.ponto{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ponto p{
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    height: 200px;
+    color: #fff;
+    background: #00347f;
+}
+
+
+
+.sociais img{
+    width: 50px;
+    height: 50px
+
+}
+
+.sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{ 
+    width: 1920px;
+    text-align: start;
+    color:#fff;
+    background-image: url(../IMG/Footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.7em;
+}
+
+footer a{
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer > h2{
+    font-size: 2em;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #000;
+    color: #ffbc0d;
+}
+
+.redes{
+    display: flex;
+    text-align: center;
+}
