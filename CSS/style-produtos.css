@@ -172,3 +172,65 @@ html{
     display: flex;
     text-align: center;
 }
+@media screen and (max-width: 768px){
+
+
+    .planos{
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .produtos{
+        display: flex;
+    }
+
+    .produtos img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .detalhes{
+        font-size: 0.3em;
+    }
+
+
+    footer{
+        font-size: 1em;
+        width: 100%;
+        max-width: 768px;
+    }
+    
+    #local{
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .voltar{
+        text-align: center;
+        font-size: 3em;
+    }
+
+
+@media screen and (max-width: 360px){
+
+
+
+
+
+
+    footer{
+        flex-wrap: wrap;
+        font-size: 0.7em;
+        width: 100%;
+        max-width: 360px;
+    }
+    .redes img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .voltar{
+        text-align: center;
+        font-size: 2.3em;
+    }
+}

@@ -55,3 +55,39 @@ p{
 .major{
     font-size: 3.1em;
 }
+
+@media screen and (max-width:768px){
+
+    h1{
+        font-size: 3.5em;
+    }
+
+    p{
+        width: 90%;
+        -webkit-text-stroke: 0px;
+        font-size: 1.9em;
+    }
+
+    .destaque{
+        font-size: 1.3em;
+        -webkit-text-stroke: 1px #fff;
+    }
+    
+    .minor{
+        font-size: 1.7em;
+        -webkit-text-stroke: 0px;
+    }
+
+    .standart{
+        font-size: 1.5em;
+        -webkit-text-stroke: 0px;
+    }
+
+    .major{
+        font-size: 1.8em;
+    }
+
+    .master{
+        font-size: 1.8em;
+    }
+}
