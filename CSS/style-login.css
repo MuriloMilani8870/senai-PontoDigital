@@ -207,32 +207,6 @@ form {
   .container {
     padding: 15px;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .sociais img{
     width: 50px;
@@ -273,4 +247,125 @@ footer > h2{
 .redes{
     display: flex;
     text-align: center;
+}
+
+@media screen and (max-width: 768px){
+
+
+    .imagem{
+        width: 200px;
+        height: -100px;
+        margin: 0;
+        text-align: center;
+    }
+
+    #conteudo{
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .conteudo_geral{
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .cadastre-se{
+        margin: 0;
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .log{
+        width: 100%;
+        max-width: 768px;
+        margin: 0;
+    }
+    
+    footer{
+        font-size: 1em;
+        width: 100%;
+        max-width: 768px;
+    }
+    
+    #local{
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .voltar{
+        text-align: center;
+        font-size: 3em;
+    }
+
+@media screen and (max-width: 360px){
+
+
+    input{
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .imagem{
+        margin-top: 100px;
+        width: 250px;
+        height: -300px;
+        text-align: center;
+    }
+
+    #conteudo{
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .conteudo_geral{
+        width: 100%;
+        max-width: 360px;
+        margin: 0;
+    }
+
+    .cadastre-se{
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        margin: 0;
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .log{
+        text-align: center;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 250px;
+        margin-right: 50px;
+    }
+    
+
+    footer{
+        flex-wrap: wrap;
+        font-size: 0.7em;
+        width: 100%;
+        max-width: 360px;
+    }
+    .redes img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .voltar{
+        text-align: center;
+        font-size: 2.3em;
+    }
 }

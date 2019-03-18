@@ -148,3 +148,96 @@ footer > h2{
     display: flex;
     text-align: center;
 }
+
+
+@media screen and (max-width: 768px){
+    
+
+    .empresa{
+        margin: 0;
+        font-size: 0.6em;
+    }
+
+    .ponto{
+        margin: 0;
+        font-size: 0.5em;
+    }
+
+
+
+
+    footer{
+        font-size: 1em;
+        width: 100%;
+        max-width: 768px;
+    }
+    
+    #local{
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .voltar{
+        text-align: center;
+        font-size: 3em;
+    }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px){
+
+     #historia{
+         width: 100%;
+         max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .empresa{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width:350px;
+        margin: 0;
+        font-size: 0.5em;
+    }
+
+    .ponto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width:350px;
+        margin: 0;
+    }
+
+    .ponto img{
+        width: 250px;
+    }
+        
+    
+
+    .ponto p{
+        font-size: 0.9em;
+    }
+
+    .empresa img{
+        width: 250px;
+    }
+
+    .ponto{
+        margin: 0;
+        font-size: 0.5em;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+
+   
+}

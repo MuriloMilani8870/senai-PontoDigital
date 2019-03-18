@@ -174,29 +174,6 @@ input{
     color: #fff;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sociais img{
     width: 50px;
     height: 50px
@@ -240,4 +217,95 @@ footer > h2{
 
 html{
     scroll-behavior: smooth;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+
+
+    .conteudo p{
+        width: 100%;
+        max-width: 700px;
+    }
+
+    
+    input{
+        width: 100%;
+        max-width: 500px;
+    }
+
+
+    .formulario{
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .tel{
+        width: 100%;
+        max-width: 700px;
+    }
+
+
+    footer{
+        font-size: 1em;
+        width: 100%;
+        max-width: 768px;
+    }
+    
+    #local{
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .voltar{
+        text-align: center;
+        font-size: 3em;
+    }
+
+
+
+
+@media screen and (max-width: 360px){
+
+
+    .conteudo p{
+        font-size: 2.3em;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    input{
+        width: 100%;
+        max-width: 300px;
+    }
+
+
+    .formulario{
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .tel{
+        width: 100%;
+        max-width: 300px;
+    }
+
+
+    footer{
+        flex-wrap: wrap;
+        font-size: 0.7em;
+        width: 100%;
+        max-width: 360px;
+    }
+    .redes img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .voltar{
+        text-align: center;
+        font-size: 2.3em;
+    }
 }

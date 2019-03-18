@@ -176,6 +176,7 @@ html{
 
 
     .planos{
+        margin-left: 20px;
         width: 100%;
         max-width: 250px;
     }
@@ -187,6 +188,10 @@ html{
     .produtos img{
         height: 200px;
         width: 200px;
+    }
+
+    .produtos h2{
+        font-size: 1em; 
     }
 
     .detalhes{
@@ -213,9 +218,50 @@ html{
 
 @media screen and (max-width: 360px){
 
+    .planos{
+        margin-left: 20px;
+        width: 100%;
+        max-width: 190px;
+    }
+
+    .planos a{
+        font-size: 0.7em;
+    }
+
+    #compre{
+        font-size: 0.5em;
+    }
+
+    .produtos{
+        margin-right: 50px;
+        width: 100%;
+        max-width: 190px;
+        display: flex;
+        justify-content: start;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .produtos img{
+        height: 160px;
+        width: 160px;
+    }
+
+    .produtos h2{
+        font-size: 0.7em; 
+    }
+
+    .detalhes{
+        font-size: 0.3em;
+        width: 260px;
+    }
 
 
-
+    .tudo{
+        display: flex;
+        flex-wrap: wrap;        
+        flex-direction: column;
+    }
 
 
     footer{
